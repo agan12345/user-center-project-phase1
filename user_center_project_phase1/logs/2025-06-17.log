@@ -1,0 +1,356 @@
+2025-06-17 12:33:04,093 - INFO - 【请求方法】POST
+2025-06-17 12:33:04,093 - INFO - 【请求地址】https://reqres.in/api/users
+2025-06-17 12:33:04,093 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'name': 'morpheus', 'job': 'leader'}}
+2025-06-17 12:33:05,674 - INFO - 【响应状态码】201
+2025-06-17 12:33:05,674 - INFO - 【响应内容】{"name":"morpheus","job":"leader","id":"140","createdAt":"2025-06-17T04:38:38.682Z"}
+2025-06-17 12:33:05,674 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:05,679 - INFO - 【请求方法】GET
+2025-06-17 12:33:05,679 - INFO - 【请求地址】https://reqres.in/api/users/2
+2025-06-17 12:33:05,679 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}}
+2025-06-17 12:33:07,391 - INFO - 【响应状态码】200
+2025-06-17 12:33:07,391 - INFO - 【响应内容】{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Tired of writing endless social media content? Let Content Caddy generate it for you."}}
+2025-06-17 12:33:07,392 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:07,393 - INFO - 【请求方法】POST
+2025-06-17 12:33:07,393 - INFO - 【请求地址】https://reqres.in/api/login
+2025-06-17 12:33:07,393 - INFO - 【请求参数】{'json': {'email': 'peter@klaven'}, 'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}}
+2025-06-17 12:33:09,006 - INFO - 【响应状态码】400
+2025-06-17 12:33:09,007 - INFO - 【响应内容】{"error":"Missing password"}
+2025-06-17 12:33:09,007 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:09,007 - INFO - 【请求方法】POST
+2025-06-17 12:33:09,007 - INFO - 【请求地址】https://reqres.in/api/login
+2025-06-17 12:33:09,008 - INFO - 【请求参数】{'json': {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}, 'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}}
+2025-06-17 12:33:10,668 - INFO - 【响应状态码】200
+2025-06-17 12:33:10,668 - INFO - 【响应内容】{"token":"QpwL5tke4Pnpja7X4"}
+2025-06-17 12:33:10,668 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:10,669 - INFO - 【请求方法】POST
+2025-06-17 12:33:10,669 - INFO - 【请求地址】https://reqres.in/api/register
+2025-06-17 12:33:10,669 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}
+2025-06-17 12:33:12,409 - INFO - 【响应状态码】200
+2025-06-17 12:33:12,410 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}
+2025-06-17 12:33:12,410 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:12,410 - INFO - 【请求方法】POST
+2025-06-17 12:33:12,410 - INFO - 【请求地址】https://reqres.in/api/register
+2025-06-17 12:33:12,411 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': ''}}
+2025-06-17 12:33:14,150 - INFO - 【响应状态码】400
+2025-06-17 12:33:14,151 - INFO - 【响应内容】{"error":"Missing password"}
+2025-06-17 12:33:14,151 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:14,151 - INFO - 【请求方法】POST
+2025-06-17 12:33:14,151 - INFO - 【请求地址】https://reqres.in/api/register
+2025-06-17 12:33:14,152 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': '', 'password': 'pistol'}}
+2025-06-17 12:33:15,992 - INFO - 【响应状态码】400
+2025-06-17 12:33:15,992 - INFO - 【响应内容】{"error":"Missing email or username"}
+2025-06-17 12:33:15,993 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:15,993 - INFO - 【请求方法】POST
+2025-06-17 12:33:15,993 - INFO - 【请求地址】https://reqres.in/api/register
+2025-06-17 12:33:15,993 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@example.com', 'password': '123456'}}
+2025-06-17 12:33:17,781 - INFO - 【响应状态码】400
+2025-06-17 12:33:17,781 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}
+2025-06-17 12:33:17,781 - INFO - ------------------------------------------------------------
+2025-06-17 12:33:17,782 - INFO - 【请求方法】PUT
+2025-06-17 12:33:17,782 - INFO - 【请求地址】https://reqres.in/api/users/2
+2025-06-17 12:33:17,782 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'name': 'morpheus', 'job': 'zion resident'}}
+2025-06-17 12:33:19,680 - INFO - 【响应状态码】200
+2025-06-17 12:33:19,680 - INFO - 【响应内容】{"name":"morpheus","job":"zion resident","updatedAt":"2025-06-17T04:38:52.605Z"}
+2025-06-17 12:33:19,680 - INFO - ------------------------------------------------------------
+2025-06-17 12:35:21,113 - DEBUG - 这是调试信息
+2025-06-17 12:35:21,113 - INFO - 这是正常信息
+2025-06-17 12:35:21,113 - WARNING - 这是警告信息
+2025-06-17 12:35:21,113 - ERROR - 这是错误信息
+[36m2025-06-17 12:38:26,523 - DEBUG - 这是调试信息[0m
+[32m2025-06-17 12:38:26,524 - INFO - 这是正常信息[0m
+[33m2025-06-17 12:38:26,524 - WARNING - 这是警告信息[0m
+[31m2025-06-17 12:38:26,524 - ERROR - 这是错误信息[0m
+[32m2025-06-17 12:38:26,528 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:38:26,528 - INFO - 【请求地址】https://reqres.in/api/users[0m
+[32m2025-06-17 12:38:26,528 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'name': 'morpheus', 'job': 'leader'}}[0m
+[32m2025-06-17 12:38:28,406 - INFO - 【响应状态码】201[0m
+[32m2025-06-17 12:38:28,406 - INFO - 【响应内容】{"name":"morpheus","job":"leader","id":"377","createdAt":"2025-06-17T04:44:01.352Z"}[0m
+[32m2025-06-17 12:38:28,406 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:28,407 - INFO - 【请求方法】GET[0m
+[32m2025-06-17 12:38:28,408 - INFO - 【请求地址】https://reqres.in/api/users/2[0m
+[32m2025-06-17 12:38:28,408 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}}[0m
+[32m2025-06-17 12:38:29,945 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 12:38:29,946 - INFO - 【响应内容】{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral","text":"Tired of writing endless social media content? Let Content Caddy generate it for you."}}[0m
+[32m2025-06-17 12:38:29,946 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:29,947 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:38:29,947 - INFO - 【请求地址】https://reqres.in/api/login[0m
+[32m2025-06-17 12:38:29,948 - INFO - 【请求参数】{'json': {'email': 'peter@klaven'}, 'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}}[0m
+[32m2025-06-17 12:38:31,587 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:38:31,587 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 12:38:31,587 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:31,587 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:38:31,587 - INFO - 【请求地址】https://reqres.in/api/login[0m
+[32m2025-06-17 12:38:31,587 - INFO - 【请求参数】{'json': {'email': 'eve.holt@reqres.in', 'password': 'cityslicka'}, 'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}}[0m
+[32m2025-06-17 12:38:33,322 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 12:38:33,323 - INFO - 【响应内容】{"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 12:38:33,323 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:33,324 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:38:33,324 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:38:33,325 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 12:38:35,285 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 12:38:35,286 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 12:38:35,286 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:35,286 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:38:35,287 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:38:35,287 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': ''}}[0m
+[32m2025-06-17 12:38:37,081 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:38:37,081 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 12:38:37,082 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:37,082 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:38:37,082 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:38:37,082 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': '', 'password': 'pistol'}}[0m
+[32m2025-06-17 12:38:38,954 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:38:38,954 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 12:38:38,954 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:38,955 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:38:38,955 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:38:38,955 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@example.com', 'password': '123456'}}[0m
+[32m2025-06-17 12:38:40,797 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:38:40,798 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 12:38:40,798 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:38:40,799 - INFO - 【请求方法】PUT[0m
+[32m2025-06-17 12:38:40,799 - INFO - 【请求地址】https://reqres.in/api/users/2[0m
+[32m2025-06-17 12:38:40,800 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'name': 'morpheus', 'job': 'zion resident'}}[0m
+[32m2025-06-17 12:38:42,744 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 12:38:42,744 - INFO - 【响应内容】{"name":"morpheus","job":"zion resident","updatedAt":"2025-06-17T04:44:15.670Z"}[0m
+[32m2025-06-17 12:38:42,744 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:55:41,396 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:55:41,396 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:55:41,396 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 12:55:43,132 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 12:55:43,133 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 12:55:43,134 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:55:43,192 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:55:43,192 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:55:43,193 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 12:55:44,974 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:55:44,974 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 12:55:44,974 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:55:44,976 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:55:44,976 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:55:44,976 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 12:55:46,671 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:55:46,672 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 12:55:46,672 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:55:46,679 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:55:46,679 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:55:46,680 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 12:55:48,354 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:55:48,354 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 12:55:48,355 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:57:58,020 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:57:58,020 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:57:58,020 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 12:57:59,583 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 12:57:59,583 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 12:57:59,584 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:57:59,646 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:57:59,646 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:57:59,646 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 12:58:01,573 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:58:01,574 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 12:58:01,574 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:58:01,580 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:58:01,581 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:58:01,581 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 12:58:03,313 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:58:03,313 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 12:58:03,313 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 12:58:03,314 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 12:58:03,315 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 12:58:03,315 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 12:58:04,952 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 12:58:04,952 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 12:58:04,952 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:00:46,223 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:00:46,223 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:00:46,223 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 13:00:47,967 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 13:00:47,967 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 13:00:47,968 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:00:48,046 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:00:48,046 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:00:48,046 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:00:49,608 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:00:49,608 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:00:49,609 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:00:49,612 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:00:49,612 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:00:49,613 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:00:51,347 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:00:51,348 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:00:51,348 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:00:51,355 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:00:51,355 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:00:51,356 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:00:52,964 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:00:52,964 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:00:52,965 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:05:01,016 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:05:01,017 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:05:01,017 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 13:05:02,841 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 13:05:02,842 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 13:05:02,842 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:05:02,904 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:05:02,904 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:05:02,904 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:05:04,677 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:05:04,677 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:05:04,677 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:05:04,680 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:05:04,680 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:05:04,680 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:05:06,320 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:05:06,321 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:05:06,321 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:05:06,328 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:05:06,329 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:05:06,330 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:05:07,954 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:05:07,955 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:05:07,955 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:01,203 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:01,204 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:01,204 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 13:07:03,154 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 13:07:03,155 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 13:07:03,156 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:03,219 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:03,219 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:03,219 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:07:04,947 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:07:04,948 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:07:04,948 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:04,952 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:04,952 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:04,953 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:07:06,772 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:07:06,772 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:07:06,773 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:06,776 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:06,776 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:06,776 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:07:08,580 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:07:08,580 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:07:08,581 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:30,566 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:30,566 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:30,566 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:07:32,339 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:07:32,340 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:07:32,340 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:32,410 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:32,410 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:32,410 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:07:34,091 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:07:34,093 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:07:34,093 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:34,097 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:34,097 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:34,098 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:07:35,716 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:07:35,716 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:07:35,716 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:07:35,718 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:07:35,718 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:07:35,718 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:07:37,556 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:07:37,556 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:07:37,556 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:07,991 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:07,991 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:07,991 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 13:08:09,821 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 13:08:09,822 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 13:08:09,823 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:09,882 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:09,882 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:09,883 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:08:11,760 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:08:11,761 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:08:11,761 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:11,762 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:11,763 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:11,763 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:08:13,398 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:08:13,399 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:08:13,399 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:13,403 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:13,403 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:13,403 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:08:15,118 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:08:15,118 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:08:15,119 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:39,837 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:39,837 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:39,837 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 13:08:41,453 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 13:08:41,454 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 13:08:41,454 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:41,503 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:41,503 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:41,503 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:08:43,111 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:08:43,111 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:08:43,111 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:43,113 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:43,113 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:43,113 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:08:44,621 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:08:44,622 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:08:44,622 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:08:44,628 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:08:44,629 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:08:44,629 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:08:46,163 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:08:46,164 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:08:46,165 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:22:07,191 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:22:07,191 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:22:07,191 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 13:22:08,959 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 13:22:08,959 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 13:22:08,960 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:22:08,968 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:22:08,968 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:22:08,968 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:22:10,595 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:22:10,595 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:22:10,595 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:22:10,598 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:22:10,599 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:22:10,599 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:22:12,338 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:22:12,339 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:22:12,340 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:22:12,345 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:22:12,346 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:22:12,346 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:22:14,179 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:22:14,180 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:22:14,180 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:23:08,179 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:23:08,179 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:23:08,179 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': 'pistol'}}[0m
+[32m2025-06-17 13:23:10,001 - INFO - 【响应状态码】200[0m
+[32m2025-06-17 13:23:10,001 - INFO - 【响应内容】{"id":4,"token":"QpwL5tke4Pnpja7X4"}[0m
+[32m2025-06-17 13:23:10,001 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:23:10,007 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:23:10,007 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:23:10,007 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'eve.holt@reqres.in', 'password': None}}[0m
+[32m2025-06-17 13:23:11,625 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:23:11,626 - INFO - 【响应内容】{"error":"Missing password"}[0m
+[32m2025-06-17 13:23:11,626 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:23:11,634 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:23:11,635 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:23:11,635 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': None, 'password': 'pistol'}}[0m
+[32m2025-06-17 13:23:13,263 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:23:13,264 - INFO - 【响应内容】{"error":"Missing email or username"}[0m
+[32m2025-06-17 13:23:13,264 - INFO - ------------------------------------------------------------[0m
+[32m2025-06-17 13:23:13,270 - INFO - 【请求方法】POST[0m
+[32m2025-06-17 13:23:13,271 - INFO - 【请求地址】https://reqres.in/api/register[0m
+[32m2025-06-17 13:23:13,272 - INFO - 【请求参数】{'headers': {'x-api-key': 'reqres-free-v1', 'Content-Type': 'application/json'}, 'json': {'email': 'invalid@email.com', 'password': 123456}}[0m
+[32m2025-06-17 13:23:14,902 - INFO - 【响应状态码】400[0m
+[32m2025-06-17 13:23:14,903 - INFO - 【响应内容】{"error":"Note: Only defined users succeed registration"}[0m
+[32m2025-06-17 13:23:14,904 - INFO - ------------------------------------------------------------[0m
